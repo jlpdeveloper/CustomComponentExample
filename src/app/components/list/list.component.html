@@ -1,0 +1,10 @@
+<p>This is how you make a custom component. My Custom Title is {{Title}}. Clicking this button will send true to the parent</p>
+<ion-button (click)="onClick()">
+  Click me
+</ion-button>
+<div>My Items passed in:</div>
+<ul>
+<li *ngFor="let item of items">
+  {{item}}
+</li>
+</ul>
